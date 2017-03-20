@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+
+	<!-- Jquery UI theme-->
+	<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+	<!-- Bootstrap 4 CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+	<!--  Bootstrap 3 CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	<!-- FontAwesom -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- SEO -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="autor" content="dandgerson dandgerson@gmail.com">
+	<!-- bower CSS -->
+	<link rel="stylesheet" href="bower/tether/dist/css/tether.min.css">
+	<link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!--[if lt IE 7]>
+	<p class="browsehappy">Вы используете <strong>устаревший</strong> браузер.
+	Пожалуйста <a href="http://browsehappy.com/"><strong>обновите</strong></a> его.</p>
+	<![endif]-->
+	
+	<section id="cover">
+		<div id="cover-caption">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-sm-10">
+						<h1 class="display-3">Welcome to My basic website with Bootstrap 4</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure facere eos eveniet, debitis numquam, impedit voluptatum. Accusantium repellendus, error ut? Quaerat eveniet in labore cumque perferendis sint dolore asperiores. Culpa.</p>
+					</div>
+				</div>
+				<form action="" class="action form-inline">
+					<div class="form-group">
+						<label class="sr-only">Name</label>
+						<input type="text" class="form-control form-control-lg" placeholder="Jane Doe">
+
+
+
+						<label class="sr-only">Email</label>
+						<input type="text" class="form-control form-control-lg" placeholder="Jane.doe@example.com">
+
+						<button type="submit" class="btn btn-success btn-lg">okay, go!</button>
+					</div>
+				</form>
+
+				<br>
+
+				<a href="#nav-main" class="btn btn-outline-secondary btn-sm" role="button"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" id="nav-main">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#">Silent World</a>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search Your Place">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+
+	<section id="carousel">
+		<div id="carouselHome" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselHome" data-slide-to="1"></li>
+				<li data-target="#carouselHome" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<img class="d-block img-fluid" src="img/carItem.jpeg" alt="First slide">
+					<div class="carousel-caption">
+						<h3>Places whithout human</h3>
+						<p>Nice place whitout a human is very peacefull and silent</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="img/carItem2.jpeg" alt="Second slide">
+					<div class="carousel-caption">
+						<h3>Places whithout human</h3>
+						<p>Nice place whitout a human is very peacefull and silent</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="img/carItem3.jpg" alt="Third slide">
+					<div class="carousel-caption">
+						<h3>Places whithout human</h3>
+						<p>Nice place whitout a human is very peacefull and silent</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+
+	<section id="whatWeDo">
+		<div id="sectionConteiner">
+			<div class="container">
+				<div class="section-content">
+					<h2 class="section-title">What we do</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo assumenda deserunt corporis fugit natus animi quibusdam ab voluptate aperiam est! Quaerat labore ipsam deserunt impedit asperiores porro quibusdam culpa exercitationem.</p>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="card-group">
+								<div class="card">
+									<img class="card-img-top" src="img/carItem.jpeg" alt="Card image cap">
+									<div class="card-block">
+										<h4 class="card-title">The place whithout a people</h4>
+										<h6 class="card-subtitle">Get make a tour travel for peacfull and silent expression around The Place without humans and Enjoy The Solitude...</h6>
+									</div>
+									<div class="card-block">
+										<p class="card-text">Are you yet don't want to be a Solitude without a city and work problems, and get a Travel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos vitae et, consectetur itaque commodi.</p>
+										<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
+									</div>
+
+
+								</div>
+								<div class="card">
+									<img class="card-img-top" src="img/carItem2.jpeg" alt="Card image cap">
+									<div class="card-block">
+										<h4 class="card-title">The place whithout a people</h4>
+										<h6 class="card-subtitle">Get make a tour travel for peacfull and silent expression around The Place without humans and Enjoy The Solitude...</h6>
+									</div>
+									<div class="card-block">
+										<p class="card-text">Are you yet don't want to be a Solitude without a city and work problems, and get a Travel</p>
+										<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
+									</div>
+
+
+								</div>
+								<div class="card">
+									<img class="card-img-top" src="img/carItem3.jpg" alt="Card image cap">
+									<div class="card-block">
+										<h4 class="card-title">The place whithout a people</h4>
+										<h6 class="card-subtitle">Get make a tour travel for peacfull and silent expression around The Place without humans and Enjoy The Solitude...</h6>
+									</div>
+									<div class="card-block">
+										<p class="card-text">Are you yet don't want to be a Solitude without a city and work problems, and get a Travel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos vitae et, consectetur itaque commodi, odio illum dolorem porro nobis voluptate laboriosam doloremque quia nesciunt quaerat quis perspiciatis incidunt repudiandae optio.</p>
+										<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
+									</div>
+
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="about">
+	<div class="section-content">
+		<div class="container">
+			<div class="col-md-6">
+				<div class="about-text">
+					<h3>About me</h3>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam fugit, iure culpa error quasi numquam accusantium asperiores itaque illo vero aperiam dolor architecto, est eius tenetur saepe ut commodi possimus!</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem optio consequatur velit, iste, inventore reiciendis error commodi ut laborum explicabo a quo numquam nesciunt neque nam, sint rem autem minima aperiam tenetur. Ab magni enim beatae nulla, voluptates velit, recusandae vero suscipit inventore quam provident reprehenderit quis sunt harum rerum. Nisi iusto veritatis ipsa debitis odio in, facilis dolorum, quibusdam.</p>
+
+					<h5>Follow me on the web</h5>
+					<a href="" class="btn btn-sm btn-outline-secondary">twitter</a>
+					<a href="" class="btn btn-sm btn-outline-secondary">facebook</a>
+					<a href="" class="btn btn-sm btn-outline-secondary">youtube</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="news">
+	<div class="section-content">
+		<div class="container">
+			<h3>Latest news</h3>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati qui quo fugit quis, iure reprehenderit, atque vitae. Sit ipsum accusantium, ab magnam, tenetur voluptatum. Ipsa sed perferendis tempora voluptatibus impedit!</p>
+			<hr>
+			<div class="row">
+				<div class="col-sm-12">
+
+					<div class="card-columns">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="img/bg.jpeg" alt="Card image cap">
+							<div class="card-block">
+								<h4 class="card-title">Card title that wraps to a new line</h4>
+								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						</div>
+						<div class="card p-3">
+							<blockquote class="card-block card-blockquote">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+								<footer>
+									<small class="text-muted">
+										Someone famous in <cite title="Source Title">Source Title</cite>
+									</small>
+								</footer>
+							</blockquote>
+						</div>
+						<div class="card">
+							<img class="card-img-top img-fluid" src="img/bg1.jpg" alt="Card image cap">
+							<div class="card-block">
+								<h4 class="card-title">Card title</h4>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+						<div class="card card-inverse card-primary p-3 text-center">
+							<blockquote class="card-blockquote">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+								<footer>
+									<small>
+										Someone famous in <cite title="Source Title">Source Title</cite>
+									</small>
+								</footer>
+							</blockquote>
+						</div>
+						<div class="card text-center">
+							<div class="card-block">
+								<h4 class="card-title">Card title</h4>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+						<div class="card">
+							<img class="card-img img-fluid" src="img/carItem3.jpg" alt="Card image">
+						</div>
+						<div class="card card-inverse card-warning p-3 text-right">
+							<blockquote class="card-blockquote">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+								<footer>
+									<small class="text-muted">
+										Someone famous in <cite title="Source Title">Source Title</cite>
+									</small>
+								</footer>
+							</blockquote>
+						</div>
+						<div class="card">
+							<div class="card-block">
+								<h4 class="card-title">Card title</h4>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+					</div>
+
+					<nav aria-label="Page navigation example">
+						<ul class="pagination justify-content-center">
+							<li class="page-item disabled">
+								<a class="page-link" href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+									<span class="sr-only">Previous</span>
+								</a>
+							</li>
+							<li class="page-item active"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">4</a></li>
+							<li class="page-item"><a class="page-link" href="#">5</a></li>
+							<li class="page-item"><a class="page-link" href="#">6</a></li>
+							<li class="page-item"><a class="page-link" href="#">7</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+									<span class="sr-only">Next</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer-main">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<p>uncopyright 2017 do what you want.</p>
+				<p>coded by <a target="_blank" href="http://dandgerson.com">dandgerson</a></p>
+			</div>
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<li><a href="">home</a></li>
+					<li><a href="">what we do</a></li>
+					<li><a href="">about</a></li>
+					<li><a href="">latest</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<li><a href="">facebook</a></li>
+					<li><a href="">twitter</a></li>
+					<li><a href="">youtube</a></li>
+					<li><a href="">linkedin</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h6>a tiny header</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ipsa sunt, voluptatibus quisquam molestiae numquam! Ab adipisci, eos facere delectus quos quidem cum iure blanditiis voluptatem facilis, nisi iusto modi.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- jQuery first, then Tether, then Bootstrap 4 JS. -->
+<script src="bower/jquery/dist/jquery.min.js"></script>
+<script src="bower/tether/dist/js/tether.min.js"></script>
+<script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+	
+	<!-- JS Plugins -->
+	<script></script>
+	<!-- Custom JS -->
+	<script src="js/main.js"></script>
+	<!-- JQuery test script -->
+	<!-- <script>
+		if (typeof jQuery == "undefined") {
+			alert("jQuery is not installed!");
+		} else {
+			alert("jQuery is installed correctly!");
+		}
+	</script> -->
+</body>
+</html>

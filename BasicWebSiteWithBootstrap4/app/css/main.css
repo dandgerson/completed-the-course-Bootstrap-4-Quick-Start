@@ -1,0 +1,56 @@
+/* main.css*/
+html,
+body {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+/* cover */
+
+#cover {
+	background: #222 url('../img/bg1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.form-group {
+	margin: 0 auto;
+}
+#cover-caption {
+	width: 100%;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+	display:block;
+}
+.section-content {
+	padding: 5rem 0;
+}
+#about {
+	background: url('../img/carItem4.jpg') center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.about-text {
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 1.875rem;
+}
+#footer-main {
+	background-color: #222;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	color: white;
+}
